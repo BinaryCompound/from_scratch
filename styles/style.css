@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto;
+    background-color: #1e1e1e;
+    font-family: 'Inter';
+    color: white;
+    width: 360px;
+}
+
+main {
+    background-color: black;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 168px;
+    padding: 24px 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid yellow;
+    padding: 20px;
+    height: 62px;
+}
+
+.footer_links{
+    display: flex;
+    gap: 16px;
+}
+
+.logo_links {
+    margin: 24px 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'EB Garamond';
+    font-weight: 500;
+    font-size: 28px;
+    padding: auto;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+}
+
+ul {
+    padding: 32px 20px 40px;
+}
+
+.content-section {
+    background-color: black;
+    padding-top: 30px;
+}
+
+.cover {
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 12px auto 12px;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: left;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#big_size_letter_one {
+    display: block;
+    text-align: left;
+    font-size: 72px;
+    padding-left: 20px;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+}
+
+#big_size_letter_two {
+    font-size: 72px;
+    display: block;
+    text-align: center;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+}
+
+#big_size_letter_three {
+    font-size: 72px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    display: block;
+    text-align: right;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+}
+
+
+.gray_card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    background-color: rgb(69, 69, 69);
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.yellow_card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    background-color: yellow;
+    color: black;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+
+
+}
+
+.yellow_content {
+    color: black;
+    background-color: #FEE42A;
+    padding: 40px 20px;
+}
+
+.text_marker {
+    color: black;
+    font-weight: bold;
+}
+
+.padding__text {
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.header {
+    display: flex;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
